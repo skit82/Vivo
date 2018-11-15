@@ -67,14 +67,14 @@ $(document).ready(function() {
     autoplay: true,
     autoplaySpeed: 3000, 
     adaptiveHeight: true,
-    prevArrow: '<img class="left" src="img/banner-left.png">',
+    prevArrow: '<img class="left left-fon" src="img/banner-left.png">',
     nextArrow: '<img class="right" src="img/banner-right.png">',
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1
   });
 
-  $('.about-us__list').slick({
+  $('').slick({
     dots: true,
     infinite: true,
     speed: 300,
