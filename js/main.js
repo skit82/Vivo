@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     $('.header-menu-mob__item--humburger').on('click', function() {
-        $('.header-menu-mob__wrraper').slideToggle(100, function(){
+        $('.header-menu__list').slideToggle(100, function(){
           if($(this).css('display') === 'none'){
           $(this).removeAttr('style')
           };

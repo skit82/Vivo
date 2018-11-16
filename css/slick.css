@@ -120,98 +120,130 @@
   display: none;
 }
 .prev-left {
+  width: 25px;
+  height: 41px;
+}
+.prev-right {
+  width: 25px;
+  height: 41px;
+}
+.prev-left {
   position: absolute;
   left: 0px;
-  top: 115px;
+  top: 100px;
   z-index: 1;
-  opacity: 0.05;
 }
 .prev-right {
   position: absolute;
   right: 0px;
-  top: 115px;
+  top: 100px;
   z-index: 1;
-  opacity: 0.05;
 }
-.slick-slider:hover .prev-left,
-.slick-slider:hover .prev-right {
-  opacity: 1;
+@media (min-width: 768px) {
+  .prev-left {
+    width: 30px;
+    height: 80px;
+  }
+  .prev-right {
+    width: 30px;
+    height: 80px;
+  }
+  .prev-left {
+    position: absolute;
+    left: -40px;
+    top: 100px;
+    z-index: 1;
+  }
+  .prev-right {
+    position: absolute;
+    right: -40px;
+    top: 100px;
+    z-index: 1;
+  }
 }
 @media (min-width: 1024px) {
   .prev-left {
+    width: 50px;
+    height: 100px;
+  }
+  .prev-right {
+    width: 50px;
+    height: 100px;
+  }
+  .prev-left {
   position: absolute;
-  left: -25px;
-  top: 115px;
+  left: -80px;
+  top: 105px;
   z-index: 1;
 }
 .prev-right {
   position: absolute;
-  right: -25px;
-  top: 115px;
+  right: -80px;
+  top: 105px;
   z-index: 1;
 }
 }
 .left {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 41px;
 }
 .left {
   position: absolute;
   left: 0;
-  top: 50px;
+  top: 45px;
   z-index: 1;
 }
 .right {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 41px;
 }
 .right {
   position: absolute;
   right: 0;
-  top: 50px;
+  top: 45px;
   z-index: 1;
 }
 @media (min-width: 768px) {
   .left {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 80px;
   }
   .left {
     position: absolute;
-    left: 5px;
-    top: 155px;
+    left: 10px;
+    top: 105px;
     z-index: 1;
   }
   .right {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 80px;
   }
   .right {
     position: absolute;
-    right: 5px;
-    top: 155px;
+    right: 10px;
+    top: 105px;
     z-index: 1;
   }
 }
 @media (min-width: 1024px) {
   .left {
-    width: 25px;
-    height: 41px;
+    width: 50px;
+    height: 100px;
   }
   .left {
     position: absolute;
-    left: -30px;
-    top: 170px;
+    left: 0px;
+    top: 180px;
     z-index: 1;
   }
   .right {
-    width: 25px;
-    height: 41px;
+    width: 50px;
+    height: 100px;
   }
   .right {
     position: absolute;
-    right: -30px;
-    top: 170px;
+    right: 0px;
+    top: 180px;
     z-index: 1;
   }
 }
