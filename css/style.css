@@ -143,7 +143,7 @@ input[type="radio"].visually-hidden {
 	text-align: center;
 	font-size: 22px;
 	font-weight: 400;	
-	color: #9a9a9a;
+	color: #4e4c4c;
 	text-decoration: none;
 }
 .header-menu__item {
@@ -183,7 +183,7 @@ input[type="radio"].visually-hidden {
   padding-left: 25px;
   font-size: 16px;
   font-weight: 300;
-  color: #9fa4ab;
+  color: #4e4c4c;
   text-decoration: none;
   border-left: 5px solid #ffffff;
 }
@@ -331,7 +331,7 @@ input[type="radio"].visually-hidden {
 	padding: 0 10px;
 	font-size: 16px;
 	font-weight: 400;
-	color: #9a9a9a;
+	color: #4e4c4c;
 	text-indent: 10px;
 	text-align: justify;
 }
@@ -388,7 +388,7 @@ input[type="radio"].visually-hidden {
   padding-bottom: 5px;
   font-size: 20px;
   font-weight: 400;
-  color: #9a9a9a;
+  color: #4e4c4c;
 }
 .feedback__name {
 	margin: 0px 10px;
@@ -405,7 +405,7 @@ input[type="radio"].visually-hidden {
   padding-left: 5px;
   font-size: 14px;
   font-weight: 400;
-  color: #9a9a9a;
+  color: #4e4c4c;
   line-height: 22px;
   outline: none;
   border: none;
@@ -430,7 +430,7 @@ input[type="radio"].visually-hidden {
   padding-left: 20px;
   font-size: 12px;
   font-weight: 400;
-  color: #9a9a9a;
+  color: #4e4c4c;
 }
 input:placeholder {
 	font-size: 16px;
@@ -557,7 +557,7 @@ input:checked ~ .feedback__icon::after {
   	padding-bottom: 15px;
 		font-size: 24px;
 		font-weight: 400;
-		color: #9a9a9a;
+		color: #4e4c4c;
 	}
 	.feedback__input {
 		width: 100%;
@@ -566,7 +566,7 @@ input:checked ~ .feedback__icon::after {
 		padding-left: 10px;
 		font-size: 16px;
 		font-weight: 400;
-		color: #9a9a9a;
+		color: #4e4c4c;
 		line-height: 22px;
 		outline: none;
 		border: none;
@@ -725,7 +725,7 @@ input:checked ~ .feedback__icon::after {
 	vertical-align: text-bottom;
 }
 .footer-list__title {
-  color: #9a9a9a;
+  color: #4e4c4c;
   font-size: 24px;
   font-weight: 400;
   margin: 0 0 10px;
@@ -736,7 +736,7 @@ input:checked ~ .feedback__icon::after {
 .footer-list__link {
 	font-size: 16px;
 	font-weight: 400;
-  color: #9a9a9a;
+  color: #4e4c4c;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -754,7 +754,7 @@ input:checked ~ .feedback__icon::after {
 	padding-bottom: 5px;
 	font-size: 14px;
 	font-weight: 400;
-  color: #9a9a9a;
+  color: #4e4c4c;
   text-align: center;
 }
 @media screen and (min-width: 768px) {
@@ -893,7 +893,7 @@ input:checked ~ .feedback__icon::after {
 .about-us__text {
 	font-size: 16px;
 	font-weight: 400;
-	color: #9a9a9a;
+	color: #4e4c4c;
 }
 .advantages {
 	position: relative;
@@ -968,14 +968,14 @@ input:checked ~ .feedback__icon::after {
 	padding: 0px 10px;
 	font-size: 14px;
 	font-weight: 400;
-	color: #9a9a9a;
+	color: #4e4c4c;
 	text-align: justify;
 }
 @media (min-width: 768px) {
 	.personal-data__text {
 		font-size: 16px;
 		font-weight: 400;
-		color: #9a9a9a;
+		color: #4e4c4c;
 	}
 }
 @media (min-width: 1024px) {
@@ -1286,7 +1286,7 @@ input:checked ~ .feedback__icon::after {
   padding: 15px 10px;
   font-size: 24px;
   font-weight: 400;
-  color: #9a9a9a;
+  color: #4e4c4c;
   text-decoration: none;
   text-align: left;
 }
@@ -1351,7 +1351,7 @@ input:checked ~ .feedback__icon::after {
   margin-bottom: 5px;
 	font-size: 16px;
 	font-weight: 400;
-	color: #9a9a9a;
+	color: #4e4c4c;
 	text-align: center;
 	transition: 0.5s;
 }
@@ -1413,7 +1413,7 @@ input:checked ~ .feedback__icon::after {
 	padding: 0 10px;
 	font-size: 16px;
 	font-weight: 400;
-	color: #9a9a9a;
+	color: #4e4c4c;
 	text-indent: 10px;
 	text-align: justify;
 	margin-bottom: 30px;
