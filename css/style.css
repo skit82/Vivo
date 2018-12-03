@@ -1177,6 +1177,15 @@ input:checked ~ .feedback__icon::after {
 	-o-flex-direction: column;
 	flex-direction: column;
 }
+.contact__caption {
+	padding: 0px;
+	margin: 0px;
+	margin-top: -5px;
+  margin-bottom: 10px;
+	font-size: 22px;
+	font-weight: 400;
+	color: #008cd6;
+}
 @media screen and (min-width: 767px) {
 	.contact__title {
 		
@@ -1369,9 +1378,36 @@ input:checked ~ .feedback__icon::after {
 	display: block;
   text-decoration: none;
 }
+.filter {
+	max-width: 420px;
+	margin: 0 auto;
+}
+.filter__list {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.filter__link {
+	padding: 0px 5px;
+	margin: 0px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #4e4c4c;
+	text-decoration: none; 
+}
+.filter__link:hover {
+	color: #008cd6;
+	cursor: pointer;
+}
 @media (min-width: 767px) {
 	.catalog__title {
 
+	}
+	.filter__link {
+		font-size: 16px;
 	}
 	.catalog__name {
 		font-size: 20px;
